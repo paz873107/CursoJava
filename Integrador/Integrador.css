@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+header{
+    background-image:url("header.jpg");
+    width: auto;
+    height: 1230px;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    position: relative;
+    width: 200px;
+    top: 30px;
+    left: 35px;
+}
+
+.mas{
+    text-align: center;
+    font-weight: lighter;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 300px;
+    position: absolute;
+    display: flex;
+    top: 50px;
+    right: 50px;
+    justify-content: space-between;
+}
+
+.nosotros, .cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.seguridad, .precio, .tiempo, .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card{
+    width: 350px;
+    height: 600px;
+    border: grey 1px solid;
+    background-color: rgb(236, 232, 232);
+}
+
+.iconos{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer{
+    background-image: url('encuentra.jpg');
+    width: auto;
+    height:500px;
+    background-repeat: no-repeat;
+}
+
+.subtitle{
+    position: relative;
+    top: 1000px;
+    left: 35px;
+    width: 550px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subt{
+    color:white;
+}
+
+.anuncio{
+    width: 350px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 75px;
+    background-color:rgb(59, 59, 59)
+}
+
+.valores{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: 25px;
+}
+
+.valor{
+    color: limegreen;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.naranja, .naranjas{
+    height: 40px;
+    margin-top: 40px;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(255, 93, 35);
+    border: none;
+    transition: background-color .5s;
+}
+
+.naranjas{
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.naranja{
+    width: 275px;
+}
+
+.naranja:hover, .naranjas:hover{
+    background-color:rgb(255, 120, 58);
+}
+
+.boton{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+.verde{
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: limegreen;
+    height: 40px;
+    width: 100px;
+    transition: background-color .5s;
+}
+
+.verde:hover{
+    background-color: lime;
+}
+
+.h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 200px;
+}
+
+.encuentra{
+    padding-top: 80px;
+}
+
+.p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 200px;
+}
+
+.form{
+    padding-top: 80px;
+}
+
+.button{
+    margin-left: 160px;
+}
+
+.footish{
+    width: 300px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+.footy{
+    width: 500px;
+    display: flex;
+    padding-top: 30px;
+    margin-left: 600px;
+}
+
+.design{
+    color: white;
+    margin-left: 175px;
+}
