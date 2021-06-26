@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Mayoría de edad</title>
+</head>
+<body>
+</body>
+<script>
+/*Descomentar para ver la solución 
+var edad = prompt("Ingresá tu edad:");
+if (edad > 18) {
+  alert("Eres mayor de edad");
+} else {
+  alert("Eres menor de edad");
+} */
+
+/*Comentar el siguiente código para dejar de ver la solución*/
+var usuario1 = prompt("Usuario 1, ingresá tu edad:");
+var usuario2 = prompt("Usuario 2, ingresá tu edad:");
+var usuario3 = prompt("Usuario 3, ingresá tu edad:");
+if ((usuario1 > usuario2) && (usuario1 > usuario3)) {
+  alert("Usuario 1 es el mayor");
+} else if ((usuario2 > usuario1) && (usuario2 > usuario3)) {
+  alert("Usuario 2 es el mayor");
+} else if ((usuario3 > usuario1) && (usuario3 > usuario2)) {
+  alert("Usuario 3 es el mayor");
+}
+</script>
+
+</html>
